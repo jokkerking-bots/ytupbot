@@ -22,7 +22,7 @@ from tobrot import (
 async def new_join_f(client, message):
     chat_type = message.chat.type
     if chat_type != "private":
-        await message.reply_text(f"?Kechirasiz men faqat @YTUPGROUP guruhida ishlayman siz ham ushbu guruhda mendan bemalol foydalaning.ungacha esa Xayir?")
+        await message.reply_text(f"â˜ºKechirasiz men faqat @YTUBGROUP guruhida ishlayman siz ham ushbu guruhda mendan bemalol foydalaning.ungacha esa XayirðŸ‘‹")
         # leave chat
         await client.leave_chat(
             chat_id=message.chat.id,
@@ -33,7 +33,7 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you ?¤£?¤£?¤£?¤£", quote=True)
+    # await message.reply_text("no one gonna help you ?Â¤Â£?Â¤Â£?Â¤Â£?Â¤Â£", quote=True)
     channel_id = str(AUTH_CHANNEL)[4:]
     message_id = 3
     inline_keyboard = []
